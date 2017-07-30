@@ -1,0 +1,62 @@
+.connect_us{
+	width: 1000px;
+	margin: 0 auto;
+}
+.connect_us_title{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.connect_us_title p{
+	font-size: 22px;
+	text-align: center;
+}
+.connect_us_info{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.connect_us_form{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.connect_us_form  input{
+	width: 280px;
+	height: 40px;
+	border-radius: 2px;
+	outline: none;
+	line-height: 30px;
+	margin-left: 10px;
+	text-indent: 18px;
+	border:1px solid #ccc;
+}
+.connect_us_form  textarea{
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 874px;
+	height: 300px;
+	text-indent: 18px;
+	outline: none;
+	padding-top: 10px;
+	border:1px solid #ccc;
+}
+.connect_us_form  input:last-child{
+	width: 200px;
+	border-radius: 20px;
+	background: #181818;
+	text-align: center;
+	color: white;
+	margin-left: 330px;
+	margin-top: 20px;
+}
+.connect_us_form  input:last-child:hover{
+	opacity: 0.7;
+}
+.map{
+	width: 100%;
+	height: 400px;
+	margin-top: 20px;
+	background: #F3F1EC;
+}

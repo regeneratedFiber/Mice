@@ -1,0 +1,196 @@
+.introduce{
+	width: 100%;
+	height: 430px;
+	background: white;
+}
+.introduce_content{
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+}
+.introduce_left{
+	width: 450px;
+	height: 400px;
+	margin-top: 60px;
+	margin-left: 130px;
+	float: left;
+}
+.introduce_left_title>p{
+	font-size: 26px;
+	margin-top: 30px;
+}
+.introduce_left_title p+p{
+	font-size: 26px;
+	margin-top: 20px;
+}
+.introduce_left_info{
+	margin-top: 20px;
+	color: #696969;
+}
+.introduce_left_info p{
+	line-height: 25px;
+}
+.introduce_left_more{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	background: #181818;
+	color: white;
+	margin-top: 40px;
+}
+.introduce_left_more:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.introduce_left_more p{
+	line-height: 40px;
+}
+
+.introduce_right{
+	width: 580px;
+	height: 400px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+.introduce_right img:nth-child(1){
+	width: 500px;
+	opacity: 0;
+}
+.introduce_right img:nth-child(2),.introduce_right img:nth-child(3){
+	margin-top: 5px;
+	width: 240px;
+	height: 160px;
+	float: left;
+	margin-left: 20px;
+	opacity: 0;
+}
+.introduce_right img:nth-child(2){
+	margin-left: 0px;
+	opacity: 0;
+}
+
+
+
+
+
+.background_img{
+	width: 100%;
+	height: 1000px;
+	background: url("../images/13.jpg") no-repeat fixed;
+}
+.develop{
+	width: 100%;
+	height: 500px;
+	background: #f5f5f5;
+}
+.develop_content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.develop_content_title{
+	width: 600px;
+	height: 160px;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0);
+	margin-top: 80px;
+}
+.develop_content_title p{
+	margin: 0 auto;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 40px;
+	color: #413333;
+}
+.develop_content_title p+p{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #696969;
+}
+.develop_content_product{
+	width: 385px;
+	height: 240px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 8px;
+}
+.develop_content_product img{
+	display: block;
+	float: left;
+	opacity: 0;
+}
+.develop_content_product>p{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.develop_content_product p+p{
+	margin-top: 10px;
+}
+
+
+
+.company{
+	width: 100%;
+	height: 500px;
+}
+.company_content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.company_business{
+	width: 470px;
+	height: 220px;
+	margin-left: 80px;
+	margin-top: 140px;
+	float: left;
+	background: white;
+}
+.company_business img{
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	display: block;
+	opacity: 0;
+}
+.company_business_info{
+	width: 240px;
+	margin-left: 20px;
+	float: left;
+}
+.company_business_info p:nth-child(1){
+	line-height: 30px;
+	margin-top: 20px;
+	height: 30px;
+	font-size: 20px;
+}
+.company_business_info p:nth-child(2){
+	line-height: 20px;
+	margin-top: 16px;
+	height: 20px;
+	font-size: 14px;
+}
+.company_business_info p:nth-child(3){
+	background: black;
+	color: white;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    margin-left:28px; 
+    line-height: 36px;
+    margin-top: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.company_business_info p:nth-child(3):hover{
+	opacity: 0.7;
+}
